@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Checklist edukasi untuk mengenali tanda dan faktor yang perlu dikonsultasikan terkait TB.">
+<title>Skrining Mandiri — TBCareKids</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/v6.css"><link rel="stylesheet" href="css/v7.css"></head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html" aria-label="TBCareKids beranda"><img class="brand-logo" src="assets/images/logo-v7.png" alt="TBCareKids" width="3405" height="554"></a>
+<button class="menu-toggle" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav class="main-nav" aria-label="Navigasi utama"><a href="index.html">Beranda</a><a href="komunitas.html">Diskusi</a><a href="artikel.html">Artikel</a><a class="active" href="skrining.html">Skrining</a><a class="nav-cta" href="artikel.html">Pelajari TB <span>↗</span></a></nav>
+</header>
+<main>
+<section class="page-hero section-wrap"><div><div class="section-kicker">CHECKLIST KESEHATAN / 03</div><h1>Lebih peka,<br><span class="text-purple">lebih peduli.</span></h1><p>Perhatikan kondisi anak dalam beberapa waktu terakhir. Pilih “Ya” atau “Tidak” pada tiap pernyataan untuk membantu mencatat tanda yang perlu dikonsultasikan.</p></div><div class="page-hero-art photo-hero screening-photo"><img src="assets/images/screening-kids.png" alt="Sekelompok anak tersenyum bersama"></div></section>
+<section class="section-wrap screening-content">
+<div class="screening-intro"><div><span class="section-kicker">SELF-CHECK / TB AWARENESS</span><h2>Checklist tanda dan gejala</h2></div><p>Pilih “Ya” jika anak mengalami tanda yang disebutkan, atau “Tidak” jika tidak.</p></div>
+<div class="screening-warning"><span class="warning-icon">!</span><div><strong>Penting untuk diketahui</strong><p>Checklist ini hanya untuk edukasi, bukan alat diagnosis atau penentu tingkat risiko. Hasil semua “Tidak” juga tidak memastikan anak bebas TB. Jika ada gejala atau pernah kontak dengan penderita TB, konsultasikan ke tenaga kesehatan.</p></div></div>
+<form class="checklist-card" id="tb-checklist">
+<div class="checklist-heading"><div><span class="section-kicker">TBCareKids • FORMULIR EDUKASI</span><h3>Periksa hal-hal berikut</h3></div><span class="checklist-count" id="answered-count">0/7 dijawab</span></div>
+<div class="checklist-progress"><span id="progress-fill"></span></div>
+<div class="checklist-table-wrap"><table class="checklist-table">
+<thead><tr><th class="number-col">No.</th><th>Tanda dan gejala / faktor yang perlu diperhatikan</th><th>Ya</th><th>Tidak</th></tr></thead><tbody>
+<tr><td>1</td><td>Anak tidak berselera makan atau kehilangan nafsu makan seperti biasanya.</td><td><input type="radio" id="q1y" name="q1" value="yes" aria-label="Pertanyaan 1: Ya"></td><td><input type="radio" id="q1n" name="q1" value="no" aria-label="Pertanyaan 1: Tidak"></td></tr>
+<tr><td>2</td><td>Berat badan anak menurun atau tidak bertambah selama 3 bulan terakhir.</td><td><input type="radio" id="q2y" name="q2" value="yes" aria-label="Pertanyaan 2: Ya"></td><td><input type="radio" id="q2n" name="q2" value="no" aria-label="Pertanyaan 2: Tidak"></td></tr>
+<tr><td>3</td><td>Anak mengalami demam selama 2 minggu atau lebih, atau demam yang sering kambuh tanpa sebab jelas. Kadang disertai banyak berkeringat pada malam hari.</td><td><input type="radio" id="q3y" name="q3" value="yes" aria-label="Pertanyaan 3: Ya"></td><td><input type="radio" id="q3n" name="q3" value="no" aria-label="Pertanyaan 3: Tidak"></td></tr>
+<tr><td>4</td><td>Ada satu atau beberapa benjolan di leher, ketiak, atau lipatan paha anak yang berdekatan, tidak sakit saat ditekan, dan berukuran lebih dari sekitar 1 cm.</td><td><input type="radio" id="q4y" name="q4" value="yes" aria-label="Pertanyaan 4: Ya"></td><td><input type="radio" id="q4n" name="q4" value="no" aria-label="Pertanyaan 4: Tidak"></td></tr>
+<tr><td>5</td><td>Anak mengalami batuk selama 2 minggu atau lebih.</td><td><input type="radio" id="q5y" name="q5" value="yes" aria-label="Pertanyaan 5: Ya"></td><td><input type="radio" id="q5n" name="q5" value="no" aria-label="Pertanyaan 5: Tidak"></td></tr>
+<tr><td>6</td><td>Anak mengalami diare berkepanjangan yang tidak kunjung membaik meskipun sudah mendapat pengobatan.</td><td><input type="radio" id="q6y" name="q6" value="yes" aria-label="Pertanyaan 6: Ya"></td><td><input type="radio" id="q6n" name="q6" value="no" aria-label="Pertanyaan 6: Tidak"></td></tr>
+<tr><td>7</td><td>Pernah kontak dengan penderita TBC.</td><td><input type="radio" id="q7y" name="q7" value="yes" aria-label="Pernah kontak dengan penderita TBC: Ya"></td><td><input type="radio" id="q7n" name="q7" value="no" aria-label="Pernah kontak dengan penderita TBC: Tidak"></td></tr></tbody></table></div>
+<div class="checklist-actions"><button class="btn btn-primary" type="button" id="show-guidance">Lihat arahan umum <span>↗</span></button><button class="btn btn-quiet" type="reset">Reset jawaban</button></div>
+<div class="screening-result hidden" id="screening-guidance" role="status" aria-live="polite"><strong>Langkah berikutnya</strong><p>Checklist ini tidak memberikan diagnosis atau skor risiko. Jika ada satu atau lebih jawaban “Ya”, atau anak pernah kontak dengan seseorang yang terkena TB, konsultasikan kondisi anak ke Puskesmas atau tenaga kesehatan. Jawaban semua “Tidak” tidak menyingkirkan kemungkinan TB. Pemeriksaan lanjutan ditentukan oleh tenaga kesehatan.</p><p><strong>Catatan:</strong> Jika mengalami sesak napas berat, nyeri dada berat, atau kondisi darurat lainnya, segera cari pertolongan medis.</p></div>
+</form>
+<div class="screening-footnote"><span>✳</span><p><strong>Privasi:</strong> Checklist ini berjalan di browser dan tidak meminta nama, alamat, atau mengirim jawaban ke server.</p></div>
+</section></main>
+<footer class="site-footer"><a class="brand" href="index.html" aria-label="TBCareKids beranda"><img class="brand-logo" src="assets/images/logo-v7.png" alt="TBCareKids" width="3405" height="554"></a><p>Sahabat keluarga dalam mengenali dan mencegah tuberkulosis.</p><div class="footer-links"><a href="index.html">Beranda</a><a href="komunitas.html">Diskusi</a><a href="artikel.html">Artikel</a></div><small>© <span id="year"></span> TBCareKids. Informasi ini bukan pengganti konsultasi medis.</small></footer>
+<script src="js/main.js"></script><script src="js/screening.js"></script>
+</body></html>

@@ -1,0 +1,17 @@
+/* Approved visual v6: uploaded PNG assets, static photos, vertical cards. */
+.brand .brand-logo{display:block;width:222px;height:auto;max-width:100%;object-fit:contain}
+.hero-art::before{background:#fff0b8}.photo-accent-ring{display:none}
+.page-hero-art.article-photo::before{background:#efdcf9}
+.page-hero-art.screening-photo::before{background:#ffeac7}
+.article-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:24px}
+.article-grid .article-card{display:block;min-width:0;min-height:0}
+.article-grid .article-card[hidden]{display:none}
+.article-grid .article-card-link{display:flex;flex-direction:column;height:100%;width:100%}
+.article-grid .article-artwork{width:100%;height:210px;min-height:210px;flex-shrink:0}
+.article-grid .article-artwork b{font-size:36px}
+.article-grid .article-card-copy{width:100%;padding:26px;min-height:215px;flex:1}
+.article-grid .article-card h3{font-size:24px;line-height:1.25;margin:12px 0}
+.article-grid .article-card p{font-size:13px;line-height:1.8;margin-bottom:20px}
+.article-grid .article-status{font-size:11px;color:var(--purple);padding-top:6px}
+@media(max-width:850px){.brand .brand-logo{width:190px}.main-nav{gap:14px}}
+@media(max-width:650px){.brand .brand-logo{width:180px}.article-grid{grid-template-columns:1fr;gap:20px}.article-grid .article-artwork{height:180px;min-height:180px}.article-grid .article-card-copy{padding:22px;min-height:0}.article-grid .article-card h3{font-size:22px}}

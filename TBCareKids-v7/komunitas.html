@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ruang diskusi dan dukungan bagi orang tua yang mendampingi anak dengan TB.">
+<title>Ruang Diskusi Orang Tua — TBCareKids</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/v6.css"><link rel="stylesheet" href="css/v7.css"></head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html" aria-label="TBCareKids beranda"><img class="brand-logo" src="assets/images/logo-v7.png" alt="TBCareKids" width="3405" height="554"></a>
+<button class="menu-toggle" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav class="main-nav" aria-label="Navigasi utama"><a href="index.html">Beranda</a><a class="active" href="komunitas.html">Diskusi</a><a href="artikel.html">Artikel</a><a href="skrining.html">Skrining</a><a class="nav-cta" href="artikel.html">Pelajari TB <span>↗</span></a></nav>
+</header>
+<main>
+<section class="community-shell section-wrap">
+<aside class="community-sidebar" aria-label="Navigasi komunitas">
+<div class="community-side-title">TBCareKids COMMUNITY</div>
+<a class="community-side-link active" href="#feed"><span class="community-side-icon">⌂</span><span>Beranda diskusi</span></a>
+<a class="community-side-link" href="#compose"><span class="community-side-icon">＋</span><span>Tulis cerita</span></a>
+<a class="community-side-link" href="#guidelines"><span class="community-side-icon">♡</span><span>Panduan komunitas</span></a>
+<a class="community-side-link" href="artikel.html"><span class="community-side-icon">▤</span><span>Pusat informasi</span></a>
+</aside>
+
+<div class="community-main">
+<div class="community-heading">
+<div class="section-kicker">PARENT SUPPORT COMMUNITY</div>
+<h1>Tak harus <span class="text-purple">menjalani sendiri.</span></h1>
+<p>Ruang aman untuk saling mendengar, berbagi pengalaman, dan menguatkan sesama orang tua.</p>
+</div>
+
+<div class="community-search"><span>⌕</span><input id="community-search" type="search" placeholder="Cari topik atau cerita..." aria-label="Cari diskusi"></div>
+
+<div class="community-compose" id="compose">
+<div class="compose-top"><div class="community-avatar">♡</div><p>Ada cerita atau pertanyaan yang ingin dibagikan?</p></div>
+<form class="compose-card" id="post-form">
+<input id="post-title" type="text" maxlength="90" placeholder="Tulis judul diskusi..." required>
+<textarea id="post-body" maxlength="600" placeholder="Ceritakan pengalaman atau pertanyaanmu. Hindari mencantumkan nama lengkap, alamat, nomor telepon, atau informasi pribadi anak." required></textarea>
+<div class="compose-actions">
+<span class="compose-note">Gunakan nama samaran. Cerita yang dikirim di prototype ini hanya tampil di browser perangkatmu.</span>
+<button class="btn btn-primary" type="submit">Bagikan cerita <span>↗</span></button>
+</div>
+</form>
+</div>
+
+<div class="community-notice"><strong>Pengingat:</strong> Komunitas ini untuk dukungan dan berbagi pengalaman, bukan pengganti konsultasi dokter. Jangan menghentikan atau mengubah pengobatan anak berdasarkan saran dari pengguna lain.</div>
+
+<div class="community-topics" role="group" aria-label="Filter topik">
+<button class="community-topic active" data-filter="all">Semua topik</button>
+<button class="community-topic" data-filter="pengalaman">Cerita orang tua</button>
+<button class="community-topic" data-filter="pendampingan">Pendampingan anak</button>
+<button class="community-topic" data-filter="dukungan">Dukungan emosional</button>
+<button class="community-topic" data-filter="tanya">Tanya jawab</button>
+</div>
+
+<div class="community-feed-head" id="feed"><h2>Obrolan komunitas</h2><span id="post-total">Contoh diskusi</span></div>
+<div id="community-posts">
+<article class="community-post" data-category="pengalaman">
+<div class="post-meta"><div class="community-avatar">I</div><div class="post-meta-text"><strong>Ibu N • Nama samaran</strong><span>Contoh cerita • Cerita orang tua</span></div></div>
+<span class="post-tag">CERITA ORANG TUA</span><h3>Hal kecil yang membantu anak tetap semangat</h3>
+<p>Saat mendampingi anak menjalani pengobatan, kami mencoba membuat rutinitas harian yang nyaman dan tetap memberi ruang untuk bermain serta beristirahat. Apa rutinitas sederhana yang membantu keluarga lain?</p>
+<div class="post-actions"><button class="post-action like-button" type="button">♡ <span>Apresiasi</span></button><button class="post-action reply-button" type="button">↩ Reply</button></div>
+<div class="post-replies"><div class="reply-bubble">Terima kasih sudah berbagi. Setiap keluarga punya perjalanan yang berbeda.</div></div>
+<form class="reply-composer hidden"><textarea placeholder="Tulis balasan yang suportif..."></textarea><button class="reply-submit" type="submit">Kirim reply</button></form>
+</article>
+
+<article class="community-post" data-category="pendampingan">
+<div class="post-meta"><div class="community-avatar" style="background:#fff0c2;color:#754400">R</div><div class="post-meta-text"><strong>Orang Tua R • Nama samaran</strong><span>Contoh cerita • Pendampingan anak</span></div></div>
+<span class="post-tag">PENDAMPINGAN ANAK</span><h3>Bagaimana menjelaskan TB kepada anak dengan bahasa sederhana?</h3>
+<p>Saya ingin anak memahami kondisinya tanpa merasa takut atau berbeda dari teman-temannya. Adakah cara komunikasi yang terasa membantu di keluarga masing-masing?</p>
+<div class="post-actions"><button class="post-action like-button" type="button">♡ <span>Apresiasi</span></button><button class="post-action reply-button" type="button">↩ Reply</button></div>
+<div class="post-replies"><div class="reply-bubble">Orang tua bisa memakai bahasa sederhana dan meminta bantuan tenaga kesehatan bila perlu.</div></div>
+<form class="reply-composer hidden"><textarea placeholder="Tulis balasan yang suportif..."></textarea><button class="reply-submit" type="submit">Kirim reply</button></form>
+</article>
+
+<article class="community-post" data-category="tanya">
+<div class="post-meta"><div class="community-avatar" style="background:#fff0c2;color:#754400">A</div><div class="post-meta-text"><strong>Ayah A • Nama samaran</strong><span>Contoh cerita • Tanya jawab</span></div></div>
+<span class="post-tag">TANYA JAWAB</span><h3>Apa yang sebaiknya ditanyakan saat kontrol ke Puskesmas?</h3>
+<p>Saya sedang menyusun daftar pertanyaan supaya tidak lupa saat jadwal kontrol. Informasi apa yang biasanya penting untuk dikonfirmasi langsung kepada petugas kesehatan?</p>
+<div class="post-actions"><button class="post-action like-button" type="button">♡ <span>Apresiasi</span></button><button class="post-action reply-button" type="button">↩ Reply</button></div>
+<div class="post-replies"><div class="reply-bubble">Bisa tanyakan jadwal kontrol, cara pemberian obat, dan tanda yang perlu dipantau di rumah.</div></div>
+<form class="reply-composer hidden"><textarea placeholder="Tulis balasan yang suportif..."></textarea><button class="reply-submit" type="submit">Kirim reply</button></form>
+</article>
+
+<article class="community-post" data-category="dukungan">
+<div class="post-meta"><div class="community-avatar">M</div><div class="post-meta-text"><strong>Bunda M • Nama samaran</strong><span>Contoh cerita • Dukungan emosional</span></div></div>
+<span class="post-tag">DUKUNGAN EMOSIONAL</span><h3>Untuk orang tua yang sedang lelah: kamu juga perlu dukungan</h3>
+<p>Mendampingi anak bisa terasa melelahkan. Tidak apa-apa mencari bantuan dari keluarga, teman tepercaya, atau tenaga profesional ketika membutuhkan ruang untuk bercerita.</p>
+<div class="post-actions"><button class="post-action like-button" type="button">♡ <span>Apresiasi</span></button><button class="post-action reply-button" type="button">↩ Reply</button></div>
+<div class="post-replies"><div class="reply-bubble">Benar, orang tua pendamping juga butuh dukungan dan ruang untuk beristirahat.</div></div>
+<form class="reply-composer hidden"><textarea placeholder="Tulis balasan yang suportif..."></textarea><button class="reply-submit" type="submit">Kirim reply</button></form>
+</article>
+</div>
+<div class="community-empty" id="community-empty">Belum ada diskusi yang cocok dengan pencarian ini.</div>
+
+<section class="community-guidelines" id="guidelines">
+<h3>Ruang aman dimulai dari kita.</h3>
+<p><strong>Jaga privasi.</strong> Gunakan nama samaran dan jangan membagikan identitas atau data kesehatan pribadi anak. <strong>Saling menghormati.</strong> Hindari stigma, menyalahkan, atau menghakimi. <strong>Bagikan dengan bijak.</strong> Pengalaman pribadi bukan pengganti nasihat medis; arahkan pertanyaan klinis kepada tenaga kesehatan.</p>
+</section>
+</div>
+</section>
+</main>
+<footer class="site-footer"><a class="brand" href="index.html" aria-label="TBCareKids beranda"><img class="brand-logo" src="assets/images/logo-v7.png" alt="TBCareKids" width="3405" height="554"></a><p>Sahabat keluarga dalam mengenali dan mencegah tuberkulosis.</p><div class="footer-links"><a href="index.html">Beranda</a><a href="artikel.html">Artikel</a><a href="skrining.html">Skrining</a></div><small>© <span id="year"></span> TBCareKids. Ruang diskusi prototype, belum terhubung ke server.</small></footer>
+<script src="js/main.js"></script><script src="js/community.js"></script>
+</body></html>
