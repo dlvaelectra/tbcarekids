@@ -23,3 +23,8 @@
  .checklist-table input[type=radio]{width:22px;height:22px}
  .checklist-table td:nth-child(3),.checklist-table td:nth-child(4){padding-inline:1px}
 }
+
+/* Typography revision: exact pt adjustments relative to v8. */
+.community-post>p,.reply-bubble{font-size:calc(16px - 2pt)}
+.post-meta-text strong{font-size:calc(16px - 1pt)}
+.stats-heading p{font-size:calc(13px + 2pt)}
