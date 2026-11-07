@@ -1,0 +1,25 @@
+/* Approved v8: bounded homepage and community/mobile screening changes. */
+.learn-after-stats{padding-block:48px 0}.learn-after-stats .intro-bottom{margin-top:0}
+.community-post>p,.reply-bubble{font-size:16px;line-height:1.7;overflow-wrap:anywhere}
+.checklist-choice{display:grid;place-items:center;width:100%;cursor:pointer}
+@media(max-width:800px){
+ .community-sidebar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;overflow:visible;width:100%;min-width:0}
+ .community-side-link{white-space:normal;min-width:0;min-height:48px;margin:0;padding:10px;line-height:1.5}
+ .community-side-link span:last-child{min-width:0;overflow-wrap:anywhere}
+ .community-side-icon{flex:0 0 22px}
+}
+@media(max-width:650px){
+ .learn-after-stats{padding-top:32px}
+ .screening-content,.checklist-card{min-width:0}
+ .checklist-table-wrap{width:100%;overflow:visible}
+ .checklist-table{table-layout:fixed;width:100%;min-width:0;font-size:16px;line-height:1.6}
+ .check-col-number{width:9%}.check-col-question{width:63%}.check-col-answer{width:14%}
+ .checklist-table th,.checklist-table td{padding:18px 4px;vertical-align:middle;overflow-wrap:break-word}
+ .checklist-table thead th{font-size:12px;letter-spacing:0;padding:12px 2px}
+ .checklist-table .number-col,.checklist-table th:nth-child(3),.checklist-table th:nth-child(4),.checklist-table td:nth-child(3),.checklist-table td:nth-child(4){width:auto}
+ .checklist-table td:first-child{text-align:center;font-size:12px}
+ .checklist-table td:nth-child(2){padding-inline:8px}
+ .checklist-choice{min-height:44px}
+ .checklist-table input[type=radio]{width:22px;height:22px}
+ .checklist-table td:nth-child(3),.checklist-table td:nth-child(4){padding-inline:1px}
+}
